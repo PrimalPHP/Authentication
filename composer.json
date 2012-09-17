@@ -1,0 +1,25 @@
+{
+	"name": "Primal/Authentication",
+	"description": "User authentication and login session management toolkit",
+	"homepage": "http://github.com/Primal/Authentication",
+	"license": "MIT",
+	"keywords": ["session", "authentication"],
+	"authors": [
+		{
+			"name": "Jarvis Badgley",
+			"homepage": "http://chipersoft.com",
+			"email": "primal@chipersoft.com"
+		}
+	],
+	"require": {
+		"php": ">=5.3.10",
+		"Primal/Session": ">0",
+		"Primal/Database": ">0"
+	},
+	"type": "library",
+	"autoload": {
+        "psr-0": {
+            "Primal\\Authentication": "lib\/"
+        }
+    }
+}
