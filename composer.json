@@ -1,5 +1,5 @@
 {
-	"name": "Primal/Authentication",
+	"name": "primal/authentication",
 	"description": "User authentication and login session management toolkit",
 	"homepage": "http://github.com/PrimalPHP/Authentication",
 	"license": "MIT",
@@ -21,5 +21,10 @@
         "psr-0": {
             "Primal\\Authentication": "lib\/"
         }
-    }
+    },
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.0"
+		}
+	}
 }
